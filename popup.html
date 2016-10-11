@@ -1,0 +1,86 @@
+<!doctype html>
+<html>
+  <head>
+    <title>PAY.COM bonus testing plugin</title>
+    <script type="text/javascript" src="popup.js"></script>
+    <link rel="stylesheet" href="popup.css">
+  </head>
+
+  <body>
+    <h2>PAY.COM bonus plugin v.10k </h2>
+    <div>
+        <button style="width:120px" id="initssl">1. Confirm SSL</button>
+        <button class="fr" id="Init">2. and init debug mode</button><br>
+    </div>
+
+    <div>
+        <input type="text" name="login" id="loginID" value="" placeholder="phone no.">
+        <input class="fr" type="text" name="password" id="passwordID" value="" placeholder="password"><br>
+    </div>
+
+    <button id="FillLoginFormNoSubmit" class="aha">Fill Login form</button>
+    <button id="FillLoginFormSubmit" class="aha w75 fr">& submit</button><br>
+    <div class="range1">
+        <button id="FillRegistrationFormStep1NoSubmit" class="aha">Fill Registration form step1</button>
+        <button id="FillRegistrationFormStep1Submit"  class="aha w75 fr">& submit</button><br>
+        <button id="FillRegistrationFormStep2NoSubmit" class="aha">Fill Registration (PIN verify)</button>
+        <button id="FillRegistrationFormStep2Submit" class="aha w75 fr">& submit</button><br>
+        <button id="FillRegistrationFormStep3NoSubmit" class="aha">Fill Registration form step3</button>
+        <button id="FillRegistrationFormStep3Submit" class="aha w75 fr">& submit</button><br>
+    </div>
+    <div  class="range2">
+        <button id="FillCreditCardDetalsNoSubmit" class="aha">Fill Credit Card Details</button><img src="images\logo_visa_aabb_com_ua.png" style="position: absolute; margin-top: 4px;">
+        <button id="FillCreditCardDetalsSubmit" class="aha w75 fr">& submit</button><br>
+        <button id="FillCreditCardCompletePinNoSubmit" class="aha">Card Ownership Verif. Code</button>
+        <button id="FillCreditCardCompletePinSubmit" class="aha w75 fr">& submit</button><br>
+    </div>    
+    <button id="AdditionalUserInformationNoSubmit" class="aha">Advanced registration details</button>
+    <button id="AdditionalUserInformationSubmit" class="aha w75 fr">& submit</button><br>
+    <button id="Get10usersKyc0" class="aha">Get 10 last KYC-0 users</button>
+    <button id="Get10usersKyc1" class="aha">KYC-1</button>
+    <button id="Get10usersKyc2" class="aha fr">KYC-2</button><br>
+    
+   <select id="getUserKyc0" class="aha" style=" margin: 4px; padding-top: 5px; padding-bottom: 5px;">
+        <option value='1'>Fill 1.kyc-0 user</option>
+        <option value='2'>Fill 2.kyc-0 user</option>
+        <option value='3'>Fill 3.kyc-0 user</option>
+        <option value='4'>Fill 4.kyc-0 user</option>
+        <option value='5'>Fill 5.kyc-0 user</option>
+        <option value='6'>Fill 6.kyc-0 user</option>
+        <option value='7'>Fill 7.kyc-0 user</option>
+        <option value='8'>Fill 8.kyc-0 user</option>
+        <option value='9'>Fill 9.kyc-0 user</option>
+        <option value='10'>Fill10kyc-0 user</option>
+    </select>
+
+    <select id="getUserKyc1" class="aha" style=" margin: 4px; padding-top: 5px; padding-bottom: 5px;">
+        <option value='1'>1. kyc-1</option>
+        <option value='2'>2. kyc-1</option>
+        <option value='3'>3. kyc-1</option>
+        <option value='4'>4. kyc-1</option>
+        <option value='5'>5. kyc-1</option>
+        <option value='6'>6. kyc-1</option>
+        <option value='7'>7. kyc-1</option>
+        <option value='8'>8. kyc-1</option>
+        <option value='9'>9. kyc-1</option>
+        <option value='10'>10kyc-1</option>
+    </select>
+
+    <select id="getUserKyc2" class="aha fr" style=" margin: 4px; padding-top: 5px; padding-bottom: 5px;">
+        <option value='1'>1. kyc-2</option>
+        <option value='2'>2. kyc-2</option>
+        <option value='3'>3. kyc-2</option>
+        <option value='4'>4. kyc-2</option>
+        <option value='5'>5. kyc-2</option>
+        <option value='6'>6. kyc-2</option>
+        <option value='7'>7. kyc-2</option>
+        <option value='8'>8. kyc-2</option>
+        <option value='9'>9. kyc-2</option>
+        <option value='10'>10kyc-2</option>
+    </select>
+
+    <button id="Logout" class="aha">Logout</button><br>
+    <button id="CloseWindow" class="aha">Close This Plugin</button>
+
+  </body>
+</html>

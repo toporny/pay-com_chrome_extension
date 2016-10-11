@@ -1,0 +1,62 @@
+body {
+  overflow: hidden;
+  margin: 0px;
+  padding: 0px;
+  background: white;
+  width:300px;
+  background-image: url("images/heman128.png");
+  background-repeat: no-repeat, repeat;
+  background-position: right bottom, left top;
+  height: 569px;
+}
+button {
+  margin:4px;
+  padding-top:5px;
+  padding-bottom:5px;
+}
+input {
+  padding-top:5px;
+  padding-bottom:5px;
+}
+.w75 {
+  width: 75px;
+}
+.fr {
+  float:right;
+}
+#loginID {
+  margin-left:5px;
+  width:113px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-left:3px;
+  width:110px
+}
+#Init{
+  margin:0px 5px 0px 0px;
+  width:160px;
+  margin-top:4px;
+}
+#passwordID{
+  width:80px;
+  width:156px;
+  margin-right:4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+h2{
+  margin: 0px 0px 5px 5px;
+  color:#333333;
+}
+#CloseWindow{
+  height:50px;
+}
+.range1 {
+  background-color: #EEFFEE;
+  border: 1px solid green;
+}
+.range2 {
+  background-color: #EEEEFF;
+  border: 1px solid blue;
+  margin-top:1px
+}

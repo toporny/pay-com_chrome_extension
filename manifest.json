@@ -1,0 +1,23 @@
+{
+  "name": "PAY.COM bonus testing plugin",
+  "description": "Bonus version 10k",
+  "version": "1.58",
+  "permissions": [
+    "tabs", "http://*/*", "https://*/*"
+  ],
+  "icons": {
+    "16" : "images/heman16.png",
+    "19" : "images/heman19.png",
+    "48" : "images/heman48.png",
+    "64" : "images/heman64.png",
+    "72" : "images/heman72.png",
+    "96" : "images/heman96.png",
+    "128" : "images/heman128.png"
+  },  
+  "browser_action": {
+      "default_title": "PAY.COM bonus testing plugin",
+      "default_icon": "images/heman16.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}
